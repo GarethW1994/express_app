@@ -2,9 +2,9 @@ var express = require('express');
 var app = express();
 
 //create a route
-//app.get('/', function (req, res) {
-//  res.send('Hello World!');
-//});
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
 
 //create hello codex route
 app.get('/hello', function(req, res) {
